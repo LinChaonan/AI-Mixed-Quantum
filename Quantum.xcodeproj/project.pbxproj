@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FC4DA7C2874590900F5F528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA7B2874590900F5F528 /* AppDelegate.swift */; };
+		7FC4DA7E2874590900F5F528 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA7D2874590900F5F528 /* ContentView.swift */; };
+		7FC4DA802874590900F5F528 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA7F2874590900F5F528 /* Experience.rcproject */; };
+		7FC4DA822874590C00F5F528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC4DA812874590C00F5F528 /* Assets.xcassets */; };
+		7FC4DA852874590C00F5F528 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC4DA842874590C00F5F528 /* Preview Assets.xcassets */; };
+		7FC4DA8F2874590C00F5F528 /* QuantumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA8E2874590C00F5F528 /* QuantumTests.swift */; };
+		7FC4DA992874590C00F5F528 /* QuantumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA982874590C00F5F528 /* QuantumUITests.swift */; };
+		7FC4DA9B2874590C00F5F528 /* QuantumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA9A2874590C00F5F528 /* QuantumUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FC4DA8B2874590C00F5F528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FC4DA702874590900F5F528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FC4DA772874590900F5F528;
+			remoteInfo = Quantum;
+		};
+		7FC4DA952874590C00F5F528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FC4DA702874590900F5F528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FC4DA772874590900F5F528;
+			remoteInfo = Quantum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FC4DA782874590900F5F528 /* Quantum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quantum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC4DA7B2874590900F5F528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FC4DA7D2874590900F5F528 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FC4DA7F2874590900F5F528 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		7FC4DA812874590C00F5F528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FC4DA842874590C00F5F528 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FC4DA8A2874590C00F5F528 /* QuantumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC4DA8E2874590C00F5F528 /* QuantumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumTests.swift; sourceTree = "<group>"; };
+		7FC4DA942874590C00F5F528 /* QuantumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC4DA982874590C00F5F528 /* QuantumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumUITests.swift; sourceTree = "<group>"; };
+		7FC4DA9A2874590C00F5F528 /* QuantumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FC4DA752874590900F5F528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC4DA872874590C00F5F528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC4DA912874590C00F5F528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FC4DA6F2874590900F5F528 = {
+			isa = PBXGroup;
+			children = (
+				7FC4DA7A2874590900F5F528 /* Quantum */,
+				7FC4DA8D2874590C00F5F528 /* QuantumTests */,
+				7FC4DA972874590C00F5F528 /* QuantumUITests */,
+				7FC4DA792874590900F5F528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FC4DA792874590900F5F528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FC4DA782874590900F5F528 /* Quantum.app */,
+				7FC4DA8A2874590C00F5F528 /* QuantumTests.xctest */,
+				7FC4DA942874590C00F5F528 /* QuantumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FC4DA7A2874590900F5F528 /* Quantum */ = {
+			isa = PBXGroup;
+			children = (
+				7FC4DA7B2874590900F5F528 /* AppDelegate.swift */,
+				7FC4DA7D2874590900F5F528 /* ContentView.swift */,
+				7FC4DA7F2874590900F5F528 /* Experience.rcproject */,
+				7FC4DA812874590C00F5F528 /* Assets.xcassets */,
+				7FC4DA832874590C00F5F528 /* Preview Content */,
+			);
+			path = Quantum;
+			sourceTree = "<group>";
+		};
+		7FC4DA832874590C00F5F528 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7FC4DA842874590C00F5F528 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7FC4DA8D2874590C00F5F528 /* QuantumTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FC4DA8E2874590C00F5F528 /* QuantumTests.swift */,
+			);
+			path = QuantumTests;
+			sourceTree = "<group>";
+		};
+		7FC4DA972874590C00F5F528 /* QuantumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FC4DA982874590C00F5F528 /* QuantumUITests.swift */,
+				7FC4DA9A2874590C00F5F528 /* QuantumUITestsLaunchTests.swift */,
+			);
+			path = QuantumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FC4DA772874590900F5F528 /* Quantum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC4DA9E2874590C00F5F528 /* Build configuration list for PBXNativeTarget "Quantum" */;
+			buildPhases = (
+				7FC4DA742874590900F5F528 /* Sources */,
+				7FC4DA752874590900F5F528 /* Frameworks */,
+				7FC4DA762874590900F5F528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quantum;
+			productName = Quantum;
+			productReference = 7FC4DA782874590900F5F528 /* Quantum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FC4DA892874590C00F5F528 /* QuantumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC4DAA12874590C00F5F528 /* Build configuration list for PBXNativeTarget "QuantumTests" */;
+			buildPhases = (
+				7FC4DA862874590C00F5F528 /* Sources */,
+				7FC4DA872874590C00F5F528 /* Frameworks */,
+				7FC4DA882874590C00F5F528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FC4DA8C2874590C00F5F528 /* PBXTargetDependency */,
+			);
+			name = QuantumTests;
+			productName = QuantumTests;
+			productReference = 7FC4DA8A2874590C00F5F528 /* QuantumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FC4DA932874590C00F5F528 /* QuantumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC4DAA42874590C00F5F528 /* Build configuration list for PBXNativeTarget "QuantumUITests" */;
+			buildPhases = (
+				7FC4DA902874590C00F5F528 /* Sources */,
+				7FC4DA912874590C00F5F528 /* Frameworks */,
+				7FC4DA922874590C00F5F528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FC4DA962874590C00F5F528 /* PBXTargetDependency */,
+			);
+			name = QuantumUITests;
+			productName = QuantumUITests;
+			productReference = 7FC4DA942874590C00F5F528 /* QuantumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FC4DA702874590900F5F528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7FC4DA772874590900F5F528 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7FC4DA892874590C00F5F528 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7FC4DA772874590900F5F528;
+					};
+					7FC4DA932874590C00F5F528 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7FC4DA772874590900F5F528;
+					};
+				};
+			};
+			buildConfigurationList = 7FC4DA732874590900F5F528 /* Build configuration list for PBXProject "Quantum" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FC4DA6F2874590900F5F528;
+			productRefGroup = 7FC4DA792874590900F5F528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FC4DA772874590900F5F528 /* Quantum */,
+				7FC4DA892874590C00F5F528 /* QuantumTests */,
+				7FC4DA932874590C00F5F528 /* QuantumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FC4DA762874590900F5F528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC4DA852874590C00F5F528 /* Preview Assets.xcassets in Resources */,
+				7FC4DA822874590C00F5F528 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC4DA882874590C00F5F528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC4DA922874590C00F5F528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FC4DA742874590900F5F528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC4DA7E2874590900F5F528 /* ContentView.swift in Sources */,
+				7FC4DA7C2874590900F5F528 /* AppDelegate.swift in Sources */,
+				7FC4DA802874590900F5F528 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC4DA862874590C00F5F528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC4DA8F2874590C00F5F528 /* QuantumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC4DA902874590C00F5F528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC4DA9B2874590C00F5F528 /* QuantumUITestsLaunchTests.swift in Sources */,
+				7FC4DA992874590C00F5F528 /* QuantumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FC4DA8C2874590C00F5F528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FC4DA772874590900F5F528 /* Quantum */;
+			targetProxy = 7FC4DA8B2874590C00F5F528 /* PBXContainerItemProxy */;
+		};
+		7FC4DA962874590C00F5F528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FC4DA772874590900F5F528 /* Quantum */;
+			targetProxy = 7FC4DA952874590C00F5F528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7FC4DA9C2874590C00F5F528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FC4DA9D2874590C00F5F528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FC4DA9F2874590C00F5F528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quantum/Preview Content\"";
+				DEVELOPMENT_TEAM = 897XU293HZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UCL.Quantum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FC4DAA02874590C00F5F528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quantum/Preview Content\"";
+				DEVELOPMENT_TEAM = 897XU293HZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UCL.Quantum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FC4DAA22874590C00F5F528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 897XU293HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UCL.QuantumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quantum.app/Quantum";
+			};
+			name = Debug;
+		};
+		7FC4DAA32874590C00F5F528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 897XU293HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UCL.QuantumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quantum.app/Quantum";
+			};
+			name = Release;
+		};
+		7FC4DAA52874590C00F5F528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 897XU293HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UCL.QuantumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quantum;
+			};
+			name = Debug;
+		};
+		7FC4DAA62874590C00F5F528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 897XU293HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UCL.QuantumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quantum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FC4DA732874590900F5F528 /* Build configuration list for PBXProject "Quantum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC4DA9C2874590C00F5F528 /* Debug */,
+				7FC4DA9D2874590C00F5F528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC4DA9E2874590C00F5F528 /* Build configuration list for PBXNativeTarget "Quantum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC4DA9F2874590C00F5F528 /* Debug */,
+				7FC4DAA02874590C00F5F528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC4DAA12874590C00F5F528 /* Build configuration list for PBXNativeTarget "QuantumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC4DAA22874590C00F5F528 /* Debug */,
+				7FC4DAA32874590C00F5F528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC4DAA42874590C00F5F528 /* Build configuration list for PBXNativeTarget "QuantumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC4DAA52874590C00F5F528 /* Debug */,
+				7FC4DAA62874590C00F5F528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FC4DA702874590900F5F528 /* Project object */;
+}
