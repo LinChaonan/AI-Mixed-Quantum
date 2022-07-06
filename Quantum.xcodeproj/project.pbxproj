@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FBE446228753DB9008E4CBA /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBE446128753DB9008E4CBA /* ControlView.swift */; };
 		7FC4DA7C2874590900F5F528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA7B2874590900F5F528 /* AppDelegate.swift */; };
 		7FC4DA7E2874590900F5F528 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA7D2874590900F5F528 /* ContentView.swift */; };
 		7FC4DA802874590900F5F528 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA7F2874590900F5F528 /* Experience.rcproject */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7FBE446128753DB9008E4CBA /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
 		7FC4DA782874590900F5F528 /* Quantum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quantum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC4DA7B2874590900F5F528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FC4DA7D2874590900F5F528 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			children = (
 				7FC4DA7B2874590900F5F528 /* AppDelegate.swift */,
 				7FC4DA7D2874590900F5F528 /* ContentView.swift */,
+				7FBE446128753DB9008E4CBA /* ControlView.swift */,
 				7FC4DA7F2874590900F5F528 /* Experience.rcproject */,
 				7FC4DA812874590C00F5F528 /* Assets.xcassets */,
 				7FC4DA832874590C00F5F528 /* Preview Content */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FBE446228753DB9008E4CBA /* ControlView.swift in Sources */,
 				7FC4DA7E2874590900F5F528 /* ContentView.swift in Sources */,
 				7FC4DA7C2874590900F5F528 /* AppDelegate.swift in Sources */,
 				7FC4DA802874590900F5F528 /* Experience.rcproject in Sources */,
