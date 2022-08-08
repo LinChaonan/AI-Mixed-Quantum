@@ -11,36 +11,30 @@ import RealityKit
 
 struct ContentView : View {
     var body: some View {
-        ZStack(alignment: .bottom) {
-            
-            ARViewContainer()
         
-            ControlView()
-            
+        TabView {
+            AugmentedRealityView()
+                .tabItem {
+                    Label("Editor", systemImage: "pencil.circle")
+                    Text("Editor")
+                }
+         
+            InfoView()
+                .tabItem {
+                    Label("Notes", systemImage: "note.text")
+                    Text("Notes")
+                }
+         
+            ModelView()
+                .tabItem {
+                    Label("Share", systemImage: "square.and.arrow.up")
+                    Text("Share")
+                }
+         
+                }
         }
-        .edgesIgnoringSafeArea(.all)
     }
-}
 
-struct ARViewContainer: UIViewRepresentable {
-    
-    func makeUIView(context: Context) -> ARView {
-        
-        let arView = ARView(frame: .zero)
-        
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
-        
-        // Add the box anchor to the scene
-        arView.scene.anchors.append(boxAnchor)
-        
-        return arView
-        
-    }
-    
-    func updateUIView(_ uiView: ARView, context: Context) {}
-    
-}
 
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {
