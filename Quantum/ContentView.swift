@@ -15,19 +15,19 @@ struct ContentView : View {
         TabView {
             AugmentedRealityView()
                 .tabItem {
-                    Label("Editor", systemImage: "pencil.circle")
+                    Label("A", systemImage: "pencil.circle")
                     Text("Editor")
                 }
          
             InfoView()
                 .tabItem {
-                    Label("Notes", systemImage: "note.text")
+                    Label("B", systemImage: "note.text")
                     Text("Notes")
                 }
          
-            ModelView()
+            ARQLView()
                 .tabItem {
-                    Label("Share", systemImage: "square.and.arrow.up")
+                    Label("C", systemImage: "square.and.arrow.up")
                     Text("Share")
                 }
          

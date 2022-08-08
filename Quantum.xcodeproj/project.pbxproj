@@ -19,6 +19,9 @@
 		A379477C28A1074900E90E2F /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A379477B28A1074900E90E2F /* ARView.swift */; };
 		A379478228A10C9900E90E2F /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A379478128A10C9900E90E2F /* ModelView.swift */; };
 		A379478428A10D7F00E90E2F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A379478328A10D7F00E90E2F /* InfoView.swift */; };
+		A3EC0A9128A14DD7009C7371 /* ARQLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC0A9028A14DD7009C7371 /* ARQLViewController.swift */; };
+		A3EC0A9328A14E00009C7371 /* ARQLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC0A9228A14E00009C7371 /* ARQLView.swift */; };
+		A3EC0A9528A15062009C7371 /* LEGO.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A3EC0A9428A15062009C7371 /* LEGO.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		A379477B28A1074900E90E2F /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 		A379478128A10C9900E90E2F /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
 		A379478328A10D7F00E90E2F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		A3EC0A9028A14DD7009C7371 /* ARQLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQLViewController.swift; sourceTree = "<group>"; };
+		A3EC0A9228A14E00009C7371 /* ARQLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQLView.swift; sourceTree = "<group>"; };
+		A3EC0A9428A15062009C7371 /* LEGO.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = LEGO.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +112,13 @@
 			children = (
 				7FC4DA7B2874590900F5F528 /* AppDelegate.swift */,
 				7FC4DA7D2874590900F5F528 /* ContentView.swift */,
+				A3EC0A9028A14DD7009C7371 /* ARQLViewController.swift */,
+				A3EC0A9228A14E00009C7371 /* ARQLView.swift */,
 				A379478328A10D7F00E90E2F /* InfoView.swift */,
-				A379477728A0FAD900E90E2F /* CircleImage.swift */,
 				A379478128A10C9900E90E2F /* ModelView.swift */,
+				A3EC0A9428A15062009C7371 /* LEGO.usdz */,
 				A379477B28A1074900E90E2F /* ARView.swift */,
+				A379477728A0FAD900E90E2F /* CircleImage.swift */,
 				7FC4DA7F2874590900F5F528 /* Experience.rcproject */,
 				7FC4DA812874590C00F5F528 /* Assets.xcassets */,
 				7FC4DA832874590C00F5F528 /* Preview Content */,
@@ -246,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3EC0A9528A15062009C7371 /* LEGO.usdz in Resources */,
 				7FC4DA852874590C00F5F528 /* Preview Assets.xcassets in Resources */,
 				7FC4DA822874590C00F5F528 /* Assets.xcassets in Resources */,
 			);
@@ -272,8 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3EC0A9328A14E00009C7371 /* ARQLView.swift in Sources */,
 				7FC4DA7E2874590900F5F528 /* ContentView.swift in Sources */,
 				7FC4DA7C2874590900F5F528 /* AppDelegate.swift in Sources */,
+				A3EC0A9128A14DD7009C7371 /* ARQLViewController.swift in Sources */,
 				7FC4DA802874590900F5F528 /* Experience.rcproject in Sources */,
 				A379477828A0FAD900E90E2F /* CircleImage.swift in Sources */,
 				A379478228A10C9900E90E2F /* ModelView.swift in Sources */,

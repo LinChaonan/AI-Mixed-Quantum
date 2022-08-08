@@ -14,11 +14,7 @@ struct AugmentedRealityView : View {
         
         VStack {
             
-            Text("IBM")
-                .font(.title)
-                .padding(.top, 150.0)
-            
-//                ARViewContainer()
+            ARViewContainer()
                 
             
         }
