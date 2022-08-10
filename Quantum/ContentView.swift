@@ -25,7 +25,7 @@ struct ContentView : View {
                     Text("Notes")
                 }
          
-            ARQLView()
+            ModelView()
                 .tabItem {
                     Label("C", systemImage: "square.and.arrow.up")
                     Text("Share")

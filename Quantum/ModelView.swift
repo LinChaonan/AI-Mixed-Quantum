@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ModelView: View {
     var body: some View {
-        Text("AR Quick Look")
+        CircleImage()
     }
 }
 

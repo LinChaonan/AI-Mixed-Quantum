@@ -9,7 +9,11 @@ import SwiftUI
 
 
 struct InfoView : View {
+    
+    @State private var showWebView = false
+    
     var body: some View {
+        
         
         VStack {
 
@@ -17,7 +21,15 @@ struct InfoView : View {
             Text("IBM Quantum Computer")
                 .font(.title)
                 .padding(.top)
-            Text("Information PlaceHolder")
+            
+            Button {
+                showWebView.toggle()
+            } label: {
+                Text("Watson")
+            }
+            .sheet(isPresented: $showWebView) {
+                WebView(url: URL(string: "https://linchaonan.github.io/QuickLook/")!)
+            }
             
             
             CircleImage()
