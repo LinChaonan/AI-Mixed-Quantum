@@ -10,8 +10,8 @@ import QuickLook
 import ARKit
 
 class ARQLViewController: UIViewController, QLPreviewControllerDataSource {
-    let assetName = "LEGO"
-    let assetType = "usdz"
+    let assetName = "Model"
+    let assetType = "reality"
     let allowsContentScaling = true
     let canonicalWebPageURL = URL(string: "https://github.com/ynagatomo/ARQLSanta")
     

@@ -10,26 +10,33 @@ import RealityKit
 
 
 struct ContentView : View {
+    
+    @State private var selectedTab = 1
+    
     var body: some View {
+
         
-        TabView {
-            AugmentedRealityView()
+        TabView (selection: $selectedTab){
+            RealityKitView()
                 .tabItem {
                     Label("A", systemImage: "pencil.circle")
                     Text("Editor")
                 }
+                .tag(0)
          
             InfoView()
                 .tabItem {
                     Label("B", systemImage: "note.text")
                     Text("Notes")
                 }
+                .tag(1)
          
             ModelView()
                 .tabItem {
                     Label("C", systemImage: "square.and.arrow.up")
                     Text("Share")
                 }
+                .tag(2)
          
                 }
         }

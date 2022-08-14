@@ -1,50 +1,21 @@
-//
-//  ContentView.swift
-//  Quantum
-//
-//  Created by Chaonan Lin on 05/07/2022.
-//
-
 import SwiftUI
 import RealityKit
 
-
-struct AugmentedRealityView : View {
-    var body: some View {
-        
-        VStack {
-            
-            ARViewContainer()
-                
-            
-        }
-    }
-}
-
 struct ARViewContainer: UIViewRepresentable {
-
-    func makeUIView(context: Context) -> ARView {
-
-        let arView = ARView(frame: .zero)
-
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
-
-        // Add the box anchor to the scene
-        arView.scene.anchors.append(boxAnchor)
-
-        return arView
-
-    }
     
-    func updateUIView(_ uiView: ARView, context: Context) {}
+    func makeUIView(context: Context) -> ARView {
+        
+        let arView = ARView(frame: .zero)
+        let scene = try! Experience.loadIBMQ()
+        arView.scene.addAnchor(scene)
+        return arView
+    }
 
+    func updateUIView(_ uiView: ARView, context: Context) { }
 }
 
-#if DEBUG
-struct AugmentedRealityView_Previews : PreviewProvider {
-    static var previews: some View {
-        AugmentedRealityView()
+struct AugmentedRealityView: View {
+    var body: some View {
+        ARViewContainer().edgesIgnoringSafeArea(.all)
     }
 }
-#endif

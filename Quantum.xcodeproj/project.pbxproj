@@ -15,10 +15,12 @@
 		7FC4DA8F2874590C00F5F528 /* QuantumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA8E2874590C00F5F528 /* QuantumTests.swift */; };
 		7FC4DA992874590C00F5F528 /* QuantumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA982874590C00F5F528 /* QuantumUITests.swift */; };
 		7FC4DA9B2874590C00F5F528 /* QuantumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA9A2874590C00F5F528 /* QuantumUITestsLaunchTests.swift */; };
+		A31DB37F28A823E7008E9301 /* ARQuickLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DB37E28A823E7008E9301 /* ARQuickLook.swift */; };
 		A379477828A0FAD900E90E2F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A379477728A0FAD900E90E2F /* CircleImage.swift */; };
 		A379477C28A1074900E90E2F /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A379477B28A1074900E90E2F /* ARView.swift */; };
 		A379478228A10C9900E90E2F /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A379478128A10C9900E90E2F /* ModelView.swift */; };
 		A379478428A10D7F00E90E2F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A379478328A10D7F00E90E2F /* InfoView.swift */; };
+		A38F420028A7E94000271BAE /* A.reality in Resources */ = {isa = PBXBuildFile; fileRef = A38F41FF28A7E94000271BAE /* A.reality */; };
 		A3EC0A9128A14DD7009C7371 /* ARQLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC0A9028A14DD7009C7371 /* ARQLViewController.swift */; };
 		A3EC0A9328A14E00009C7371 /* ARQLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC0A9228A14E00009C7371 /* ARQLView.swift */; };
 		A3EC0A9528A15062009C7371 /* LEGO.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A3EC0A9428A15062009C7371 /* LEGO.usdz */; };
@@ -54,10 +56,12 @@
 		7FC4DA942874590C00F5F528 /* QuantumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC4DA982874590C00F5F528 /* QuantumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumUITests.swift; sourceTree = "<group>"; };
 		7FC4DA9A2874590C00F5F528 /* QuantumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A31DB37E28A823E7008E9301 /* ARQuickLook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQuickLook.swift; sourceTree = "<group>"; };
 		A379477728A0FAD900E90E2F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		A379477B28A1074900E90E2F /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 		A379478128A10C9900E90E2F /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
 		A379478328A10D7F00E90E2F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		A38F41FF28A7E94000271BAE /* A.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = A.reality; sourceTree = "<group>"; };
 		A3EC0A9028A14DD7009C7371 /* ARQLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQLViewController.swift; sourceTree = "<group>"; };
 		A3EC0A9228A14E00009C7371 /* ARQLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQLView.swift; sourceTree = "<group>"; };
 		A3EC0A9428A15062009C7371 /* LEGO.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = LEGO.usdz; sourceTree = "<group>"; };
@@ -119,10 +123,12 @@
 				A379478328A10D7F00E90E2F /* InfoView.swift */,
 				A3F4CF5B28A3A79000CE0106 /* WebView.swift */,
 				A379478128A10C9900E90E2F /* ModelView.swift */,
-				A3EC0A9428A15062009C7371 /* LEGO.usdz */,
+				A31DB37E28A823E7008E9301 /* ARQuickLook.swift */,
 				A379477B28A1074900E90E2F /* ARView.swift */,
 				A379477728A0FAD900E90E2F /* CircleImage.swift */,
+				A38F41FF28A7E94000271BAE /* A.reality */,
 				7FC4DA7F2874590900F5F528 /* Experience.rcproject */,
+				A3EC0A9428A15062009C7371 /* LEGO.usdz */,
 				7FC4DA812874590C00F5F528 /* Assets.xcassets */,
 				7FC4DA832874590C00F5F528 /* Preview Content */,
 			);
@@ -260,6 +266,7 @@
 			files = (
 				A3EC0A9528A15062009C7371 /* LEGO.usdz in Resources */,
 				7FC4DA852874590C00F5F528 /* Preview Assets.xcassets in Resources */,
+				A38F420028A7E94000271BAE /* A.reality in Resources */,
 				7FC4DA822874590C00F5F528 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +294,7 @@
 			files = (
 				A3EC0A9328A14E00009C7371 /* ARQLView.swift in Sources */,
 				A3F4CF5C28A3A79000CE0106 /* WebView.swift in Sources */,
+				A31DB37F28A823E7008E9301 /* ARQuickLook.swift in Sources */,
 				7FC4DA7E2874590900F5F528 /* ContentView.swift in Sources */,
 				7FC4DA7C2874590900F5F528 /* AppDelegate.swift in Sources */,
 				A3EC0A9128A14DD7009C7371 /* ARQLViewController.swift in Sources */,
