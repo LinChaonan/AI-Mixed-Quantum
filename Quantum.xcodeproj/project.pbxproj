@@ -127,20 +127,17 @@
 				7FC4DA7B2874590900F5F528 /* AppDelegate.swift */,
 				A372BC0628AAB32F00863466 /* TabBar.swift */,
 				A372BC0828AAB34700863466 /* Home.swift */,
-				7FC4DA7D2874590900F5F528 /* OldTab.swift */,
 				A372BC0A28AAB36C00863466 /* HomeList.swift */,
 				A372BC0C28AAB39200863466 /* BlurView.swift */,
 				A372BC0E28AAB39900863466 /* ContentView.swift */,
-				A379478328A10D7F00E90E2F /* InfoView.swift */,
 				A3F4CF5B28A3A79000CE0106 /* WebView.swift */,
-				A379478128A10C9900E90E2F /* ModelView.swift */,
 				A31DB37E28A823E7008E9301 /* ARQuickLook.swift */,
 				A307F82728A8DACF00E567C2 /* ARView.swift */,
-				A379477728A0FAD900E90E2F /* CircleImage.swift */,
 				A38F41FF28A7E94000271BAE /* A.reality */,
 				A307F82928A8EF1700E567C2 /* B.reality */,
 				7FC4DA7F2874590900F5F528 /* Experience.rcproject */,
 				7FC4DA812874590C00F5F528 /* Assets.xcassets */,
+				A3CD68F528AACCE0003E4C0E /* Old Pages */,
 				7FC4DA832874590C00F5F528 /* Preview Content */,
 			);
 			path = Quantum;
@@ -169,6 +166,17 @@
 				7FC4DA9A2874590C00F5F528 /* QuantumUITestsLaunchTests.swift */,
 			);
 			path = QuantumUITests;
+			sourceTree = "<group>";
+		};
+		A3CD68F528AACCE0003E4C0E /* Old Pages */ = {
+			isa = PBXGroup;
+			children = (
+				7FC4DA7D2874590900F5F528 /* OldTab.swift */,
+				A379478328A10D7F00E90E2F /* InfoView.swift */,
+				A379478128A10C9900E90E2F /* ModelView.swift */,
+				A379477728A0FAD900E90E2F /* CircleImage.swift */,
+			);
+			path = "Old Pages";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
