@@ -16,23 +16,56 @@ struct InfoView : View {
         
         
         VStack {
-
-
-            Text("IBM Quantum Computer")
-                .font(.title)
-                .padding(.top)
             
-            Button {
-                showWebView.toggle()
-            } label: {
-                Text("Watson")
+            HStack{
+                CircleImage()
+                    .padding(.top, -120.0)
+                VStack{
+                    Text("IBM Q")
+                        .font(.title)
+                        .fontWeight(.regular)
+                        .padding(.trailing, 50.0)
+                    Text("Press the left tatb and focus the camera to the Quantum Computer to show the whole IBM Q System")
+                        .multilineTextAlignment(.center)
+                        .padding(.trailing, 20.0)
+                }
             }
-            .sheet(isPresented: $showWebView) {
-                WebView(url: URL(string: "https://linchaonan.github.io/QuickLook/")!)
+            HStack{
+                CircleImage()
+                    .padding(.top, -120.0)
+                VStack{
+                    Text("IBM Q")
+                        .font(.title)
+                        .fontWeight(.regular)
+                        .padding(.trailing, 50.0)
+                    Text("Press the left tatb and focus the camera to the Quantum Computer to show the whole IBM Q System")
+                        .multilineTextAlignment(.center)
+                        .padding(.trailing, 20.0)
+                }
+            }
+            HStack{
+                CircleImage()
+                    .padding(.top, -120.0)
+                VStack{
+                    Button {
+                        showWebView.toggle()
+                    } label: {
+                        Text("Watson")
+                            .font(.title)
+                    }
+                    .sheet(isPresented: $showWebView) {
+                        WebView(url: URL(string: "https://linchaonan.github.io/QuickLook/")!)
+                    }
+                    Text("Press the left tatb and focus the camera to the Quantum Computer to show the whole IBM Q System")
+                        .multilineTextAlignment(.center)
+                        .padding(.trailing, 20.0)
+                }
             }
             
+
             
-            CircleImage()
+            
+
             
         }
 

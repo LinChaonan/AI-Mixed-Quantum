@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		7FC4DA7C2874590900F5F528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA7B2874590900F5F528 /* AppDelegate.swift */; };
-		7FC4DA7E2874590900F5F528 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA7D2874590900F5F528 /* ContentView.swift */; };
+		7FC4DA7E2874590900F5F528 /* OldTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA7D2874590900F5F528 /* OldTab.swift */; };
 		7FC4DA802874590900F5F528 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA7F2874590900F5F528 /* Experience.rcproject */; };
 		7FC4DA822874590C00F5F528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC4DA812874590C00F5F528 /* Assets.xcassets */; };
 		7FC4DA852874590C00F5F528 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC4DA842874590C00F5F528 /* Preview Assets.xcassets */; };
 		7FC4DA8F2874590C00F5F528 /* QuantumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA8E2874590C00F5F528 /* QuantumTests.swift */; };
 		7FC4DA992874590C00F5F528 /* QuantumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA982874590C00F5F528 /* QuantumUITests.swift */; };
 		7FC4DA9B2874590C00F5F528 /* QuantumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA9A2874590C00F5F528 /* QuantumUITestsLaunchTests.swift */; };
+		A307F82028A8CFEE00E567C2 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = A307F81F28A8CFEE00E567C2 /* FocusEntity */; };
+		A307F82828A8DACF00E567C2 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A307F82728A8DACF00E567C2 /* ARView.swift */; };
+		A307F82A28A8EF1700E567C2 /* B.reality in Resources */ = {isa = PBXBuildFile; fileRef = A307F82928A8EF1700E567C2 /* B.reality */; };
 		A31DB37F28A823E7008E9301 /* ARQuickLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DB37E28A823E7008E9301 /* ARQuickLook.swift */; };
+		A372BC0728AAB32F00863466 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372BC0628AAB32F00863466 /* TabBar.swift */; };
+		A372BC0928AAB34700863466 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372BC0828AAB34700863466 /* Home.swift */; };
+		A372BC0B28AAB36C00863466 /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372BC0A28AAB36C00863466 /* HomeList.swift */; };
+		A372BC0D28AAB39200863466 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372BC0C28AAB39200863466 /* BlurView.swift */; };
+		A372BC0F28AAB39900863466 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372BC0E28AAB39900863466 /* ContentView.swift */; };
 		A379477828A0FAD900E90E2F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A379477728A0FAD900E90E2F /* CircleImage.swift */; };
-		A379477C28A1074900E90E2F /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A379477B28A1074900E90E2F /* ARView.swift */; };
 		A379478228A10C9900E90E2F /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A379478128A10C9900E90E2F /* ModelView.swift */; };
 		A379478428A10D7F00E90E2F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A379478328A10D7F00E90E2F /* InfoView.swift */; };
 		A38F420028A7E94000271BAE /* A.reality in Resources */ = {isa = PBXBuildFile; fileRef = A38F41FF28A7E94000271BAE /* A.reality */; };
-		A3EC0A9128A14DD7009C7371 /* ARQLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC0A9028A14DD7009C7371 /* ARQLViewController.swift */; };
-		A3EC0A9328A14E00009C7371 /* ARQLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EC0A9228A14E00009C7371 /* ARQLView.swift */; };
-		A3EC0A9528A15062009C7371 /* LEGO.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A3EC0A9428A15062009C7371 /* LEGO.usdz */; };
 		A3F4CF5C28A3A79000CE0106 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F4CF5B28A3A79000CE0106 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +51,7 @@
 /* Begin PBXFileReference section */
 		7FC4DA782874590900F5F528 /* Quantum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quantum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC4DA7B2874590900F5F528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7FC4DA7D2874590900F5F528 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FC4DA7D2874590900F5F528 /* OldTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldTab.swift; sourceTree = "<group>"; };
 		7FC4DA7F2874590900F5F528 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		7FC4DA812874590C00F5F528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FC4DA842874590C00F5F528 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -56,15 +60,18 @@
 		7FC4DA942874590C00F5F528 /* QuantumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC4DA982874590C00F5F528 /* QuantumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumUITests.swift; sourceTree = "<group>"; };
 		7FC4DA9A2874590C00F5F528 /* QuantumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A307F82728A8DACF00E567C2 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		A307F82928A8EF1700E567C2 /* B.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = B.reality; sourceTree = "<group>"; };
 		A31DB37E28A823E7008E9301 /* ARQuickLook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQuickLook.swift; sourceTree = "<group>"; };
+		A372BC0628AAB32F00863466 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		A372BC0828AAB34700863466 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A372BC0A28AAB36C00863466 /* HomeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
+		A372BC0C28AAB39200863466 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		A372BC0E28AAB39900863466 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../Downloads/designcode-swiftui-master/DesignCode/ContentView.swift"; sourceTree = "<group>"; };
 		A379477728A0FAD900E90E2F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
-		A379477B28A1074900E90E2F /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 		A379478128A10C9900E90E2F /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
 		A379478328A10D7F00E90E2F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		A38F41FF28A7E94000271BAE /* A.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = A.reality; sourceTree = "<group>"; };
-		A3EC0A9028A14DD7009C7371 /* ARQLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQLViewController.swift; sourceTree = "<group>"; };
-		A3EC0A9228A14E00009C7371 /* ARQLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQLView.swift; sourceTree = "<group>"; };
-		A3EC0A9428A15062009C7371 /* LEGO.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = LEGO.usdz; sourceTree = "<group>"; };
 		A3F4CF5B28A3A79000CE0106 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A307F82028A8CFEE00E567C2 /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,18 +125,21 @@
 			isa = PBXGroup;
 			children = (
 				7FC4DA7B2874590900F5F528 /* AppDelegate.swift */,
-				7FC4DA7D2874590900F5F528 /* ContentView.swift */,
-				A3EC0A9028A14DD7009C7371 /* ARQLViewController.swift */,
-				A3EC0A9228A14E00009C7371 /* ARQLView.swift */,
+				A372BC0628AAB32F00863466 /* TabBar.swift */,
+				A372BC0828AAB34700863466 /* Home.swift */,
+				7FC4DA7D2874590900F5F528 /* OldTab.swift */,
+				A372BC0A28AAB36C00863466 /* HomeList.swift */,
+				A372BC0C28AAB39200863466 /* BlurView.swift */,
+				A372BC0E28AAB39900863466 /* ContentView.swift */,
 				A379478328A10D7F00E90E2F /* InfoView.swift */,
 				A3F4CF5B28A3A79000CE0106 /* WebView.swift */,
 				A379478128A10C9900E90E2F /* ModelView.swift */,
 				A31DB37E28A823E7008E9301 /* ARQuickLook.swift */,
-				A379477B28A1074900E90E2F /* ARView.swift */,
+				A307F82728A8DACF00E567C2 /* ARView.swift */,
 				A379477728A0FAD900E90E2F /* CircleImage.swift */,
 				A38F41FF28A7E94000271BAE /* A.reality */,
+				A307F82928A8EF1700E567C2 /* B.reality */,
 				7FC4DA7F2874590900F5F528 /* Experience.rcproject */,
-				A3EC0A9428A15062009C7371 /* LEGO.usdz */,
 				7FC4DA812874590C00F5F528 /* Assets.xcassets */,
 				7FC4DA832874590C00F5F528 /* Preview Content */,
 			);
@@ -176,6 +187,9 @@
 			dependencies = (
 			);
 			name = Quantum;
+			packageProductDependencies = (
+				A307F81F28A8CFEE00E567C2 /* FocusEntity */,
+			);
 			productName = Quantum;
 			productReference = 7FC4DA782874590900F5F528 /* Quantum.app */;
 			productType = "com.apple.product-type.application";
@@ -248,6 +262,9 @@
 				Base,
 			);
 			mainGroup = 7FC4DA6F2874590900F5F528;
+			packageReferences = (
+				A307F81E28A8CFEE00E567C2 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = 7FC4DA792874590900F5F528 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -264,10 +281,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3EC0A9528A15062009C7371 /* LEGO.usdz in Resources */,
 				7FC4DA852874590C00F5F528 /* Preview Assets.xcassets in Resources */,
 				A38F420028A7E94000271BAE /* A.reality in Resources */,
 				7FC4DA822874590C00F5F528 /* Assets.xcassets in Resources */,
+				A307F82A28A8EF1700E567C2 /* B.reality in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,17 +309,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3EC0A9328A14E00009C7371 /* ARQLView.swift in Sources */,
 				A3F4CF5C28A3A79000CE0106 /* WebView.swift in Sources */,
 				A31DB37F28A823E7008E9301 /* ARQuickLook.swift in Sources */,
-				7FC4DA7E2874590900F5F528 /* ContentView.swift in Sources */,
+				A372BC0F28AAB39900863466 /* ContentView.swift in Sources */,
+				7FC4DA7E2874590900F5F528 /* OldTab.swift in Sources */,
+				A372BC0928AAB34700863466 /* Home.swift in Sources */,
 				7FC4DA7C2874590900F5F528 /* AppDelegate.swift in Sources */,
-				A3EC0A9128A14DD7009C7371 /* ARQLViewController.swift in Sources */,
+				A307F82828A8DACF00E567C2 /* ARView.swift in Sources */,
+				A372BC0B28AAB36C00863466 /* HomeList.swift in Sources */,
 				7FC4DA802874590900F5F528 /* Experience.rcproject in Sources */,
 				A379477828A0FAD900E90E2F /* CircleImage.swift in Sources */,
+				A372BC0D28AAB39200863466 /* BlurView.swift in Sources */,
 				A379478228A10C9900E90E2F /* ModelView.swift in Sources */,
-				A379477C28A1074900E90E2F /* ARView.swift in Sources */,
 				A379478428A10D7F00E90E2F /* InfoView.swift in Sources */,
+				A372BC0728AAB32F00863466 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,6 +651,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A307F81E28A8CFEE00E567C2 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A307F81F28A8CFEE00E567C2 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A307F81E28A8CFEE00E567C2 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7FC4DA702874590900F5F528 /* Project object */;
 }

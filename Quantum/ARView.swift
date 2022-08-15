@@ -1,5 +1,6 @@
 import SwiftUI
 import RealityKit
+import ARKit
 
 struct ARViewContainer: UIViewRepresentable {
     
@@ -16,6 +17,6 @@ struct ARViewContainer: UIViewRepresentable {
 
 struct AugmentedRealityView: View {
     var body: some View {
-        ARViewContainer().edgesIgnoringSafeArea(.all)
+        ARViewContainer()
     }
 }

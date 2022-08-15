@@ -10,10 +10,10 @@ import SwiftUI
 struct CircleImage: View {
     var body: some View {
         NavigationView{
-        NavigationLink(destination: ARQLView()){
+        NavigationLink(destination: ModelView()){
         Image("IBMQ")
             .resizable()
-            .frame(width: 300.0, height: 220.0)
+            .frame(width: 150.0, height: 150.0)
             .clipShape(Circle())
             .overlay {
                 Circle().stroke(.blue, lineWidth: 4)
