@@ -31,19 +31,19 @@ struct HomeList: View {
                      Button(action: { self.showContent.toggle() }) {
                         GeometryReader { geometry in
                            CourseView(title: "Watson",
-                                      image: "Illustration1",
+                                      image: "Illustration2",
                                       color: Color("background3"),
                                       shadowColor: Color("backgroundShadow3"))
                               .rotation3DEffect(Angle(degrees:
                                  Double(geometry.frame(in: .global).minX - 30) / -40), axis: (x: 0, y: 10.0, z: 0))
-                              .sheet(isPresented: self.$showContent) {                         WebView(url: URL(string: "https://www.baidu.com")!)}
+                              .sheet(isPresented: self.$showContent) {                         WebView(url: URL(string: "https://linchaonan.github.io/Watson-Pages/")!)}
                         }
                         .frame(width: 246, height: 360)
                      }
                    
                    Button(action: { self.showContent2.toggle() }) {
                       GeometryReader { geometry in
-                         CourseView(title: "Quick Look",
+                         CourseView(title: "Quick Look A",
                                     image: "Illustration1",
                                     color: Color("background4"),
                                     shadowColor: Color("backgroundShadow4"))
@@ -52,9 +52,9 @@ struct HomeList: View {
                             .sheet(isPresented: self.$showContent2) {
                                 VStack {
                                     HStack {
-                                        Button("Close") {
-                                            self.showContent2.toggle()
-                                        }
+//                                        Button("Close") {
+//                                            self.showContent3.toggle()
+//                                        }
                                         Spacer()
                                     }
                                     .padding()

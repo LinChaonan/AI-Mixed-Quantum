@@ -14,8 +14,10 @@ struct Home: View {
          HomeList()
             .blur(radius: show ? 20 : 0)
             .scaleEffect(showProfile ? 0.95 : 1)
-            .animation(.default)
-
+            .transaction { transaction in
+                transaction.animation = nil
+            }
+//            .animation(.default)
       }
       .background(Color("background"))
       .edgesIgnoringSafeArea(.all)
@@ -26,7 +28,6 @@ struct Home: View {
 struct Home_Previews: PreviewProvider {
    static var previews: some View {
       Home()
-         .previewDevice("iPhone X")
    }
 }
 #endif
