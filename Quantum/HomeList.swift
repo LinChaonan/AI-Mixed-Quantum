@@ -8,7 +8,9 @@ struct HomeList: View {
    @State var showContent = false
     @State var showContent2 = false
     @State var showContent3 = false
-
+    @State var showContent4 = false
+    @State var showContent5 = false
+    
    var body: some View {
       ScrollView {
          VStack {
@@ -43,7 +45,7 @@ struct HomeList: View {
                    
                    Button(action: { self.showContent2.toggle() }) {
                       GeometryReader { geometry in
-                         CourseView(title: "Quick Look A",
+                         CourseView(title: "Model",
                                     image: "Illustration1",
                                     color: Color("background4"),
                                     shadowColor: Color("backgroundShadow4"))
@@ -65,9 +67,36 @@ struct HomeList: View {
                       .frame(width: 246, height: 360)
                    }
                    
+                   
+                   Button(action: { self.showContent5.toggle() }) {
+                      GeometryReader { geometry in
+                         CourseView(title: "Part I",
+                                    image: "Illustration1",
+                                    color: Color("background5"),
+                                    shadowColor: Color("background5"))
+                            .rotation3DEffect(Angle(degrees:
+                               Double(geometry.frame(in: .global).minX - 30) / -40), axis: (x: 0, y: 10.0, z: 0))
+                            .sheet(isPresented: self.$showContent5) {
+                                VStack {
+                                    HStack {
+//                                        Button("Close") {
+//                                            self.showContent3.toggle()
+//                                        }
+                                        Spacer()
+                                    }
+                                    .padding()
+                                    ARQuickLookView(name: "I")
+                                }
+                                }
+                      }
+                      .frame(width: 246, height: 360)
+                   }
+                   
+                   
+                   
                    Button(action: { self.showContent3.toggle() }) {
                       GeometryReader { geometry in
-                         CourseView(title: "Quick Look B",
+                         CourseView(title: "Part II",
                                     image: "Illustration1",
                                     color: Color("background7"),
                                     shadowColor: Color(hue: 0.677, saturation: 0.701, brightness: 0.788, opacity: 0.5))
@@ -82,22 +111,22 @@ struct HomeList: View {
                                         Spacer()
                                     }
                                     .padding()
-                                    ARQuickLookView(name: "B")
+                                    ARQuickLookView(name: "II")
                                 }
                                 }
                       }
                       .frame(width: 246, height: 360)
                    }
                    
-                   Button(action: { self.showContent3.toggle() }) {
+                   Button(action: { self.showContent4.toggle() }) {
                       GeometryReader { geometry in
-                         CourseView(title: "Quick Look B",
+                         CourseView(title: "Part III",
                                     image: "Illustration1",
-                                    color: Color("background7"),
+                                    color: Color("background8"),
                                     shadowColor: Color(hue: 0.677, saturation: 0.701, brightness: 0.788, opacity: 0.5))
                             .rotation3DEffect(Angle(degrees:
                                Double(geometry.frame(in: .global).minX - 30) / -40), axis: (x: 0, y: 10.0, z: 0))
-                            .sheet(isPresented: self.$showContent3) {
+                            .sheet(isPresented: self.$showContent4) {
                                 VStack {
                                     HStack {
 //                                        Button("Close") {
@@ -106,36 +135,23 @@ struct HomeList: View {
                                         Spacer()
                                     }
                                     .padding()
-                                    ARQuickLookView(name: "B")
+                                    ARQuickLookView(name: "III")
                                 }
                                 }
                       }
                       .frame(width: 246, height: 360)
                    }
                    
-                   Button(action: { self.showContent3.toggle() }) {
+                                
                       GeometryReader { geometry in
                          CourseView(title: "IBM Q",
                                     image: "Illustration4",
-                                    color: Color("background7"),
+                                    color: Color("background9"),
                                     shadowColor: Color(hue: 0.677, saturation: 0.701, brightness: 0.788, opacity: 0.5))
                             .rotation3DEffect(Angle(degrees:
                                Double(geometry.frame(in: .global).minX - 30) / -40), axis: (x: 0, y: 10.0, z: 0))
-                            .sheet(isPresented: self.$showContent3) {
-                                VStack {
-                                    HStack {
-//                                        Button("Close") {
-//                                            self.showContent3.toggle()
-//                                        }
-                                        Spacer()
-                                    }
-                                    .padding()
-                                    ARQuickLookView(name: "B")
-                                }
-                                }
                       }
                       .frame(width: 246, height: 360)
-                   }
                    
                    
                   }
