@@ -23,7 +23,6 @@
 		A372BC0928AAB34700863466 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372BC0828AAB34700863466 /* Home.swift */; };
 		A372BC0B28AAB36C00863466 /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372BC0A28AAB36C00863466 /* HomeList.swift */; };
 		A372BC0D28AAB39200863466 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372BC0C28AAB39200863466 /* BlurView.swift */; };
-		A372BC0F28AAB39900863466 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372BC0E28AAB39900863466 /* ContentView.swift */; };
 		A379477828A0FAD900E90E2F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A379477728A0FAD900E90E2F /* CircleImage.swift */; };
 		A379478228A10C9900E90E2F /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A379478128A10C9900E90E2F /* ModelView.swift */; };
 		A379478428A10D7F00E90E2F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A379478328A10D7F00E90E2F /* InfoView.swift */; };
@@ -67,7 +66,6 @@
 		A372BC0828AAB34700863466 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		A372BC0A28AAB36C00863466 /* HomeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
 		A372BC0C28AAB39200863466 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
-		A372BC0E28AAB39900863466 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../Downloads/designcode-swiftui-master/DesignCode/ContentView.swift"; sourceTree = "<group>"; };
 		A379477728A0FAD900E90E2F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		A379478128A10C9900E90E2F /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
 		A379478328A10D7F00E90E2F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 				A372BC0828AAB34700863466 /* Home.swift */,
 				A372BC0A28AAB36C00863466 /* HomeList.swift */,
 				A372BC0C28AAB39200863466 /* BlurView.swift */,
-				A372BC0E28AAB39900863466 /* ContentView.swift */,
 				A3F4CF5B28A3A79000CE0106 /* WebView.swift */,
 				A31DB37E28A823E7008E9301 /* ARQuickLook.swift */,
 				A307F82728A8DACF00E567C2 /* ARView.swift */,
@@ -319,7 +316,6 @@
 			files = (
 				A3F4CF5C28A3A79000CE0106 /* WebView.swift in Sources */,
 				A31DB37F28A823E7008E9301 /* ARQuickLook.swift in Sources */,
-				A372BC0F28AAB39900863466 /* ContentView.swift in Sources */,
 				7FC4DA7E2874590900F5F528 /* OldTab.swift in Sources */,
 				A372BC0928AAB34700863466 /* Home.swift in Sources */,
 				7FC4DA7C2874590900F5F528 /* AppDelegate.swift in Sources */,

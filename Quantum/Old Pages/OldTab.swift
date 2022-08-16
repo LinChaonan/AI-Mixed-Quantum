@@ -46,7 +46,7 @@ struct OldTabView : View {
 #if DEBUG
 struct OldTabView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        OldTabView()
     }
 }
 #endif

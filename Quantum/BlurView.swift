@@ -1,10 +1,4 @@
-//
 //  BlurView.swift
-//  DesignCode
-//
-//  Created by Mithun x on 7/14/19.
-//  Copyright © 2019 Mithun. All rights reserved.
-//
 
 import SwiftUI
 

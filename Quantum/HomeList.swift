@@ -1,6 +1,4 @@
-
 //  HomeList.swift
-
 
 import SwiftUI
 
@@ -91,6 +89,54 @@ struct HomeList: View {
                       .frame(width: 246, height: 360)
                    }
                    
+                   Button(action: { self.showContent3.toggle() }) {
+                      GeometryReader { geometry in
+                         CourseView(title: "Quick Look B",
+                                    image: "Illustration1",
+                                    color: Color("background7"),
+                                    shadowColor: Color(hue: 0.677, saturation: 0.701, brightness: 0.788, opacity: 0.5))
+                            .rotation3DEffect(Angle(degrees:
+                               Double(geometry.frame(in: .global).minX - 30) / -40), axis: (x: 0, y: 10.0, z: 0))
+                            .sheet(isPresented: self.$showContent3) {
+                                VStack {
+                                    HStack {
+//                                        Button("Close") {
+//                                            self.showContent3.toggle()
+//                                        }
+                                        Spacer()
+                                    }
+                                    .padding()
+                                    ARQuickLookView(name: "B")
+                                }
+                                }
+                      }
+                      .frame(width: 246, height: 360)
+                   }
+                   
+                   Button(action: { self.showContent3.toggle() }) {
+                      GeometryReader { geometry in
+                         CourseView(title: "IBM Q",
+                                    image: "Illustration4",
+                                    color: Color("background7"),
+                                    shadowColor: Color(hue: 0.677, saturation: 0.701, brightness: 0.788, opacity: 0.5))
+                            .rotation3DEffect(Angle(degrees:
+                               Double(geometry.frame(in: .global).minX - 30) / -40), axis: (x: 0, y: 10.0, z: 0))
+                            .sheet(isPresented: self.$showContent3) {
+                                VStack {
+                                    HStack {
+//                                        Button("Close") {
+//                                            self.showContent3.toggle()
+//                                        }
+                                        Spacer()
+                                    }
+                                    .padding()
+                                    ARQuickLookView(name: "B")
+                                }
+                                }
+                      }
+                      .frame(width: 246, height: 360)
+                   }
+                   
                    
                   }
                }
@@ -135,8 +181,8 @@ struct CourseView: View {
             .resizable()
             .renderingMode(.original)
             .aspectRatio(contentMode: .fit)
-            .frame(width: 246, height: 150)
-            .padding(.bottom, 50)
+            .frame(width: 246, height: 170)
+            .padding(.bottom, 80)
       }
       .background(color)
       .cornerRadius(30)
