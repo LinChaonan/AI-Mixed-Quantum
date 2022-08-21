@@ -14,7 +14,6 @@
 		7FC4DA852874590C00F5F528 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC4DA842874590C00F5F528 /* Preview Assets.xcassets */; };
 		7FC4DA8F2874590C00F5F528 /* QuantumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA8E2874590C00F5F528 /* QuantumTests.swift */; };
 		7FC4DA992874590C00F5F528 /* QuantumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA982874590C00F5F528 /* QuantumUITests.swift */; };
-		7FC4DA9B2874590C00F5F528 /* QuantumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC4DA9A2874590C00F5F528 /* QuantumUITestsLaunchTests.swift */; };
 		A30776CE28ABEA19008A938A /* II.reality in Resources */ = {isa = PBXBuildFile; fileRef = A30776C628ABEA13008A938A /* II.reality */; };
 		A30776D028ABEA19008A938A /* I.reality in Resources */ = {isa = PBXBuildFile; fileRef = A30776C828ABEA14008A938A /* I.reality */; };
 		A30776D328ABEA19008A938A /* III.reality in Resources */ = {isa = PBXBuildFile; fileRef = A30776CB28ABEA18008A938A /* III.reality */; };
@@ -60,7 +59,6 @@
 		7FC4DA8E2874590C00F5F528 /* QuantumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumTests.swift; sourceTree = "<group>"; };
 		7FC4DA942874590C00F5F528 /* QuantumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC4DA982874590C00F5F528 /* QuantumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumUITests.swift; sourceTree = "<group>"; };
-		7FC4DA9A2874590C00F5F528 /* QuantumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A30776C628ABEA13008A938A /* II.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = II.reality; sourceTree = "<group>"; };
 		A30776C828ABEA14008A938A /* I.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = I.reality; sourceTree = "<group>"; };
 		A30776CB28ABEA18008A938A /* III.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = III.reality; sourceTree = "<group>"; };
@@ -166,7 +164,6 @@
 			isa = PBXGroup;
 			children = (
 				7FC4DA982874590C00F5F528 /* QuantumUITests.swift */,
-				7FC4DA9A2874590C00F5F528 /* QuantumUITestsLaunchTests.swift */,
 			);
 			path = QuantumUITests;
 			sourceTree = "<group>";
@@ -350,7 +347,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FC4DA9B2874590C00F5F528 /* QuantumUITestsLaunchTests.swift in Sources */,
 				7FC4DA992874590C00F5F528 /* QuantumUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,34 +8,78 @@
 import XCTest
 
 class QuantumUITests: XCTestCase {
+    
+    let app = XCUIApplication()
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
+        try super.setUpWithError()
         continueAfterFailure = false
 
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
+        app.activate()
         app.launch()
-
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
+
+    func testDebug() throws {
+        print(app.debugDescription)
+    }
+    
+    
+    func testIBMQ() throws {
+        app.launch()
+        let tabBar = XCUIApplication().tabBars["Tab Bar"]
+        tabBar.buttons["IBM Q, IBM Q"].tap()
+        tabBar.buttons["Home, Home"].tap()
+    }
+    
+    func testModel() throws {
+        app.swipeLeft()
+        app.scrollViews.otherElements.scrollViews.otherElements.buttons["Model"].tap()
+    }
+    
+    func testPartI() throws {
+        app.swipeLeft()
+        app.scrollViews.otherElements.scrollViews.otherElements.buttons["Part I"].tap()
+    }
+    
+    func testPartII() throws {
+        app.swipeLeft()
+        app.scrollViews.otherElements.scrollViews.otherElements.buttons["Part II"].tap()
+    }
+    
+    func testPartIII() throws {
+        app.swipeLeft()
+        app.scrollViews.otherElements.scrollViews.otherElements.buttons["Part III"].tap()
+    }
+    
+    func testTest() throws {
+        
+    }
+        
+
+    func testLaunchPerformance() throws
+            {measure(metrics: [XCTApplicationLaunchMetric()]) {
+                app.launch()
             }
         }
-    }
+
+
+
+    func testWatsonPagePerformance() throws
+            {measure(metrics: [
+                XCTClockMetric(),
+                XCTCPUMetric(),
+                XCTStorageMetric(),
+                XCTMemoryMetric()]
+            ) {
+                app.scrollViews.otherElements.scrollViews.otherElements.buttons["Watson"].tap()
+
+                let webViewsQuery = app.webViews.webViews.webViews
+                XCTAssert(webViewsQuery/*@START_MENU_TOKEN@*/.buttons["Open the chat window"]/*[[".otherElements[\"IBM Watson Page\"]",".otherElements[\"Chat region, region\"].buttons[\"Open the chat window\"]",".buttons[\"Open the chat window\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/.waitForExistence(timeout: 5))
+                webViewsQuery/*@START_MENU_TOKEN@*/.buttons["Open the chat window"]/*[[".otherElements[\"IBM Watson Page\"]",".otherElements[\"Chat region, region\"].buttons[\"Open the chat window\"]",".buttons[\"Open the chat window\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/.tap()
+                webViewsQuery/*@START_MENU_TOKEN@*/.otherElements["Chat window"]/*[[".otherElements[\"IBM Watson Page\"].otherElements[\"Chat window\"]",".otherElements[\"Chat window\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.children(matching: .other).element(boundBy: 0).children(matching: .button).matching(identifier: "Close the chat window").element(boundBy: 0).tap()
+                app.buttons["Close"].tap()
+            }
+        }
+    
 }

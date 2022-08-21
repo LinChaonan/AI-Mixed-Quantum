@@ -38,7 +38,17 @@ struct HomeList: View {
                                       shadowColor: Color("backgroundShadow3"))
                               .rotation3DEffect(Angle(degrees:
                                  Double(geometry.frame(in: .global).minX - 30) / -40), axis: (x: 0, y: 10.0, z: 0))
-                              .sheet(isPresented: self.$showContent) {                         WebView(url: URL(string: "https://linchaonan.github.io/Watson-Pages/")!)}
+                              .sheet(isPresented: self.$showContent) {
+                                  VStack {
+                                      HStack {
+                                          Button("Close") {
+                                              self.showContent.toggle()
+                                          }
+                                          Spacer()
+                                      }
+                                      .padding()
+                                      WebView(url: URL(string: "https://linchaonan.github.io/Watson-Pages/")!)}
+                                  }
                         }
                         .frame(width: 246, height: 360)
                      }
@@ -54,9 +64,9 @@ struct HomeList: View {
                             .sheet(isPresented: self.$showContent2) {
                                 VStack {
                                     HStack {
-//                                        Button("Close") {
-//                                            self.showContent3.toggle()
-//                                        }
+                                        Button("Close") {
+                                            self.showContent2.toggle()
+                                        }
                                         Spacer()
                                     }
                                     .padding()
@@ -79,9 +89,9 @@ struct HomeList: View {
                             .sheet(isPresented: self.$showContent5) {
                                 VStack {
                                     HStack {
-//                                        Button("Close") {
-//                                            self.showContent3.toggle()
-//                                        }
+                                        Button("Close") {
+                                            self.showContent5.toggle()
+                                        }
                                         Spacer()
                                     }
                                     .padding()
@@ -105,9 +115,9 @@ struct HomeList: View {
                             .sheet(isPresented: self.$showContent3) {
                                 VStack {
                                     HStack {
-//                                        Button("Close") {
-//                                            self.showContent3.toggle()
-//                                        }
+                                        Button("Close") {
+                                            self.showContent3.toggle()
+                                        }
                                         Spacer()
                                     }
                                     .padding()
@@ -129,9 +139,9 @@ struct HomeList: View {
                             .sheet(isPresented: self.$showContent4) {
                                 VStack {
                                     HStack {
-//                                        Button("Close") {
-//                                            self.showContent3.toggle()
-//                                        }
+                                        Button("Close") {
+                                            self.showContent4.toggle()
+                                        }
                                         Spacer()
                                     }
                                     .padding()

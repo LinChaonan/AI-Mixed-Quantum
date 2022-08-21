@@ -3,7 +3,7 @@
 //  QuantumTests
 //
 //  Created by Chaonan Lin on 05/07/2022.
-//
+//  Example code provided by Apple
 
 import XCTest
 @testable import Quantum
