@@ -6,14 +6,11 @@ import SwiftUI
 struct Home: View {
 
    @State var show = false
-   @State var showProfile = false
 
    var body: some View {
       ZStack(alignment: .top) {
-          
-         HomeList()
+         CardView()
             .blur(radius: show ? 20 : 0)
-            .scaleEffect(showProfile ? 0.95 : 1)
             .transaction { transaction in
                 transaction.animation = nil
             }

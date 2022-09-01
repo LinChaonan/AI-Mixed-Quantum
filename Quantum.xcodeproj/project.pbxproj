@@ -23,7 +23,7 @@
 		A32331B628AC1E2100CB5F6F /* A.reality in Resources */ = {isa = PBXBuildFile; fileRef = A32331B528AC1E2100CB5F6F /* A.reality */; };
 		A372BC0728AAB32F00863466 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372BC0628AAB32F00863466 /* TabBar.swift */; };
 		A372BC0928AAB34700863466 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372BC0828AAB34700863466 /* Home.swift */; };
-		A372BC0B28AAB36C00863466 /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372BC0A28AAB36C00863466 /* HomeList.swift */; };
+		A372BC0B28AAB36C00863466 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372BC0A28AAB36C00863466 /* CardView.swift */; };
 		A372BC0D28AAB39200863466 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372BC0C28AAB39200863466 /* BlurView.swift */; };
 		A379477828A0FAD900E90E2F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A379477728A0FAD900E90E2F /* CircleImage.swift */; };
 		A379478228A10C9900E90E2F /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A379478128A10C9900E90E2F /* ModelView.swift */; };
@@ -67,7 +67,7 @@
 		A32331B528AC1E2100CB5F6F /* A.reality */ = {isa = PBXFileReference; lastKnownFileType = file; name = A.reality; path = ../../../Desktop/Project/Model/A.reality; sourceTree = "<group>"; };
 		A372BC0628AAB32F00863466 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		A372BC0828AAB34700863466 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		A372BC0A28AAB36C00863466 /* HomeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
+		A372BC0A28AAB36C00863466 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A372BC0C28AAB39200863466 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		A379477728A0FAD900E90E2F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		A379478128A10C9900E90E2F /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 				7FC4DA7B2874590900F5F528 /* AppDelegate.swift */,
 				A372BC0628AAB32F00863466 /* TabBar.swift */,
 				A372BC0828AAB34700863466 /* Home.swift */,
-				A372BC0A28AAB36C00863466 /* HomeList.swift */,
+				A372BC0A28AAB36C00863466 /* CardView.swift */,
 				A372BC0C28AAB39200863466 /* BlurView.swift */,
 				A3F4CF5B28A3A79000CE0106 /* WebView.swift */,
 				A31DB37E28A823E7008E9301 /* ARQuickLook.swift */,
@@ -325,7 +325,7 @@
 				A372BC0928AAB34700863466 /* Home.swift in Sources */,
 				7FC4DA7C2874590900F5F528 /* AppDelegate.swift in Sources */,
 				A307F82828A8DACF00E567C2 /* ARView.swift in Sources */,
-				A372BC0B28AAB36C00863466 /* HomeList.swift in Sources */,
+				A372BC0B28AAB36C00863466 /* CardView.swift in Sources */,
 				7FC4DA802874590900F5F528 /* Experience.rcproject in Sources */,
 				A379477828A0FAD900E90E2F /* CircleImage.swift in Sources */,
 				A372BC0D28AAB39200863466 /* BlurView.swift in Sources */,

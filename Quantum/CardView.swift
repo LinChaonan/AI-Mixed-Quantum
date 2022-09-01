@@ -2,10 +2,10 @@
 
 import SwiftUI
 
-struct HomeList: View {
+struct CardView: View {
 
    var courses = coursesData
-   @State var showContent = false
+    @State var showContent = false
     @State var showContent2 = false
     @State var showContent3 = false
     @State var showContent4 = false
@@ -108,7 +108,7 @@ struct HomeList: View {
                       GeometryReader { geometry in
                          CourseView(title: "Part II",
                                     image: "Illustration1",
-                                    color: Color("background7"),
+                                    color: Color("background6"),
                                     shadowColor: Color(hue: 0.677, saturation: 0.701, brightness: 0.788, opacity: 0.5))
                             .rotation3DEffect(Angle(degrees:
                                Double(geometry.frame(in: .global).minX - 30) / -40), axis: (x: 0, y: 10.0, z: 0))
@@ -132,7 +132,7 @@ struct HomeList: View {
                       GeometryReader { geometry in
                          CourseView(title: "Part III",
                                     image: "Illustration1",
-                                    color: Color("background8"),
+                                    color: Color("background7"),
                                     shadowColor: Color(hue: 0.677, saturation: 0.701, brightness: 0.788, opacity: 0.5))
                             .rotation3DEffect(Angle(degrees:
                                Double(geometry.frame(in: .global).minX - 30) / -40), axis: (x: 0, y: 10.0, z: 0))
@@ -156,12 +156,31 @@ struct HomeList: View {
                       GeometryReader { geometry in
                          CourseView(title: "IBM Q",
                                     image: "Illustration4",
-                                    color: Color("background9"),
+                                    color: Color("background8"),
                                     shadowColor: Color(hue: 0.677, saturation: 0.701, brightness: 0.788, opacity: 0.5))
                             .rotation3DEffect(Angle(degrees:
                                Double(geometry.frame(in: .global).minX - 30) / -40), axis: (x: 0, y: 10.0, z: 0))
                       }
                       .frame(width: 246, height: 360)
+
+                   
+                   
+                   Button(action: {
+                       if let url = URL(string: "https://skillsbuild.org/students/course-catalog/quantum-computing") {
+                          UIApplication.shared.open(url)
+                       }
+                   })
+                   {
+                      GeometryReader { geometry in
+                         CourseView(title: "More Info",
+                                    image: "Illustration3",
+                                    color: Color("background9"),
+                                    shadowColor: Color("background9"))
+                            .rotation3DEffect(Angle(degrees:
+                               Double(geometry.frame(in: .global).minX - 30) / -40), axis: (x: 0, y: 10.0, z: 0))
+                      }
+                      .frame(width: 246, height: 360)
+                   }
                    
                    
                   }
@@ -180,7 +199,7 @@ struct HomeList: View {
 #if DEBUG
 struct HomeList_Previews: PreviewProvider {
    static var previews: some View {
-      HomeList()
+      CardView()
    }
 }
 #endif

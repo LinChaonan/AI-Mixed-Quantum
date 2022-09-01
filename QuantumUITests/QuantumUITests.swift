@@ -27,7 +27,7 @@ class QuantumUITests: XCTestCase {
     
     func testIBMQ() throws {
         app.launch()
-        let tabBar = XCUIApplication().tabBars["Tab Bar"]
+        let tabBar = app.tabBars["Tab Bar"]
         tabBar.buttons["IBM Q, IBM Q"].tap()
         tabBar.buttons["Home, Home"].tap()
     }
@@ -70,7 +70,8 @@ class QuantumUITests: XCTestCase {
                 XCTClockMetric(),
                 XCTCPUMetric(),
                 XCTStorageMetric(),
-                XCTMemoryMetric()]
+                XCTMemoryMetric()
+            ]
             ) {
                 app.scrollViews.otherElements.scrollViews.otherElements.buttons["Watson"].tap()
 

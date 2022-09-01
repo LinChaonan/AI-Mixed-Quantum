@@ -10,20 +10,17 @@ struct TabBar: View {
             Text("Home")
          }
          .tag(1)
-          
-          
+                    
           AugmentedRealityView()
             .tabItem {
             Label("IBM Q", systemImage: "camera.on.rectangle")
             Text("IBM Q")
          }
          .tag(2)
-          
-
       }
       .edgesIgnoringSafeArea(.top)
    }
-   }
+}
 
 #if DEBUG
 struct TabBar_Previews: PreviewProvider {
